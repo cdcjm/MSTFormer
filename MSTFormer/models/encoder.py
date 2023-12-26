@@ -42,6 +42,14 @@ class EncoderLayer(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.activation = F.relu if activation == "relu" else F.gelu
 
+
+    '''
+    layer_num == 0:
+    输出:x+x_map 
+    ------
+    layer_num != 0:
+    输出:x
+    '''
     def forward(self, x, x_map, atten_x, attn_mask=None):
         # x [B, L, D]
         # x = x + self.dropout(self.attention(
@@ -56,6 +64,9 @@ class EncoderLayer(nn.Module):
         x = x + self.dropout(new_x)
 
         if self.layer_num == 0:
+            '''
+            y=x+x_map
+            '''
             z = self.dropout(x_map)
             x = self.norm1(x)
             y = x + z

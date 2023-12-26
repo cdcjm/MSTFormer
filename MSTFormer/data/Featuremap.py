@@ -4,6 +4,9 @@ from data.dataprocesslib import rad_distance, nmile2km, is_number
 from numpy import *
 import numpy as np
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+
+import math
 
 import matplotlib.pyplot as plt
 
@@ -354,13 +357,23 @@ class Map2D_current:  # 以前一时刻为中心，描述当前时刻相对前�
         return pos_probabilty
 
 
+
+'''
+输入：（19，5）19个点数据，每个数据5个特征
+输出：list[19],每个元素是一个（61，75）的矩阵
+每一个点，下一个时间可能出现的位置的概率图（矩阵）
+
+'''
 def map_data(traj):
+    # 遍历轨迹中的每个点，将速度从海里转换为千米
     for i in range(len(traj)):
         traj[i][2] = nmile2km(traj[i][2])
     probmap = []
+    # 遍历轨迹数据，对每一对连续的点生成概率地图
     for i in range(1, len(traj)):
+        # 使用当前点和前一个点的数据创建Map2D_current类的实例
         map_pos = Map2D_current(
             traj[i - 1, :], traj[i, :], MapRadio_input, SideLen_grid_input).label_speed_heading()
-        # draw_map(map_pos, i)
+        draw_map(map_pos, i)
         probmap.append(map_pos)
     return np.array(probmap)

@@ -79,10 +79,25 @@ class MSTFormer(nn.Module):
                 enc_self_mask=None, dec_self_mask=None, dec_enc_mask=None):
         enc_out = self.enc_embedding(x_enc, x_mark_enc)
         x_map = self.encnn(x_map)
+        '''
+        layer_num == 0:
+        enc_out:x+x_map 
+        ------
+        layer_num != 0:
+        enc_out:x
+        '''
         enc_out, attns, x_map = self.encoder(enc_out, x_map,x_enc, attn_mask=enc_self_mask)
 
         dec_out = self.dec_embedding(x_dec, x_mark_dec)
         y_map = self.decnn(y_map)
+
+        '''
+        layer_num == 0:
+        (x+x_map)去cross_attention 
+        ------
+        layer_num != 0:
+        (x)去cross_attention 
+        '''
         dec_out = self.decoder(dec_out, enc_out, y_map,x_dec, x_mask=dec_self_mask, cross_mask=dec_enc_mask)
         dec_out = self.projection(dec_out)
 

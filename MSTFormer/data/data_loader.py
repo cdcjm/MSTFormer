@@ -39,11 +39,13 @@ def even_select(N, M):
         return np.ones(N, dtype=bool)
     if N < M:
         raise ValueError("Try to select {} samples from {} instancees".format(M, N))
+    # M一定小，看小多少
     if M > N / 2:
-        cut = np.zeros(N, dtype=int)
-        q, r = divmod(N, N - M)
-        indices = [q * i + min(i, r) for i in range(N - M)]
-        cut[indices] = True
+        # 如果要选择的样本数超过总数的一半，采用排除法
+        cut = np.zeros(N, dtype=int)    # 初始数组全为False
+        q, r = divmod(N, N - M) # 计算商和余数
+        indices = [q * i + min(i, r) for i in range(N - M)] # 计算不被选中的索引
+        cut[indices] = True # 将这些索引处的值设为True
     else:
         cut = np.ones(N, dtype=int)
         q, r = divmod(N, M)
@@ -220,7 +222,7 @@ class Dataset_Custom(Dataset):
                         data_all.append(data_all_)
                         start = start + INTER_INDEX
 
-            #     '''读取CSV'''
+                # '''读取CSV'''
             #     # print(ipath)
             #     # ipath='./data/ship/366872170.csv'
             #     df_raw = pd.read_csv(ipath,
@@ -370,6 +372,8 @@ class Dataset_Custom(Dataset):
         s = "Read processed data from {}".format(read_path)
         print(s)
         processed_data = torch.load(read_path)
+        # dfToCSV = pd.DataFrame(processed_data)
+        # dfToCSV.to_csv(r'newPATH{flag}.csv')
         data_all_delta = processed_data["data_all_delta"]
         data_all_orig = processed_data["data_all_original"]
         data_stamp_all = processed_data["data_stamp"]
@@ -381,10 +385,21 @@ class Dataset_Custom(Dataset):
             train_data = torch.load(read_path)["data_all_delta"]
 
         ''''时序数据编码'''
+        '''
+        data_stamp_all是一个list[700]，每个元素是一个list[96]包含了96个时间str
+        data_stamp_all是700*96个时间str
+        
+        把list(700,96)转(700,96,5)
+        
+        '''
+        # data_:(67200,1)
         data_ = pd.DataFrame(np.array(data_stamp_all).reshape(-1, 1), columns=['BaseDateTime'])
+        # data_stamp_all:(67200,5)
         data_stamp_all = time_features(data_, timeenc=self.timeenc, freq=self.freq)
+        # data_stamp_all:(700,96,5)
         data_stamp_all = data_stamp_all.reshape(-1, all_len - 1, data_stamp_all.shape[1])
         '''选择输入，输出'''
+        # data_all_delta 取第三列第四列（不知道第三第四列是什么）（是轨迹的变化量？还是cog，sog？）
         data_all_delta = np.array(data_all_delta)[:, :, 2:]  # \delta x
         data_all_orig = np.array(data_all_orig)  # 真实轨迹
         # [真实轨迹(72),\delta x(24)],loss是针对轨迹差值，保留data_all_x，作为真值，因为后续归一化后x会改变
@@ -421,11 +436,25 @@ class Dataset_Custom(Dataset):
             seq_y = np.array(self.data_delta[index][r_begin:r_end])
         # atten_y=np.array(self.data_orig[index][r_begin:r_begin + self.label_len])
         if self.prob_use == True:
+            # 分割原始数据为两个list：前seq_len+1个元素和剩余的元素
+            # [73,24]=97
             data_map = [self.data_orig[index][:self.seq_len + 1], self.data_orig[index][self.seq_len + 1:]]
+            # 19
             MAP_X_NUM = int(self.seq_len / 4 + 1)
+            # 7
             MAP_Y_NUM = int(self.pred_len / 4 + 1)
+            '''
+            select(,)前者一定比后者大啊
+            even_select 只是为了取代表性且均匀分布的数据
+            mask_array1，2是索引
+            所以map只选19，7个点
+            '''
             mask_array1 = even_select(len(data_map[0]), MAP_X_NUM)  # select 10 maps
             mask_array2 = even_select(len(data_map[1]), MAP_Y_NUM)  # select 10 maps
+            '''
+            输出：list[19],每个元素是一个（61，75）的矩阵
+            每一个点，下一个时间可能出现的位置的概率图（矩阵）
+            '''
             map_x = map_data(data_map[0][mask_array1, :])  # map_data计算图
             map_y = map_data(data_map[1][mask_array2, :])
             # map_x= map_data(data_map[0])

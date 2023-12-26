@@ -62,3 +62,524 @@ test200
 test shape:(200, 24, 2)(200, 25, 4)
 mse:0.0013885144144296646, mae:0.02223939634859562, dis:3.618041515350342, rmse0.037262775003910065, mape0.0004893668228760362, mspe7.568086175524513e-07
 
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+Epoch: 1 cost time: 15.600441932678223
+Epoch: 1, Steps: 14 | Train Loss: 5.9668202 Vali Loss: 4.1360941 Test Loss: 4.1697168
+Epoch: 2 cost time: 15.52264142036438
+Epoch: 2, Steps: 14 | Train Loss: 3.7081927 Vali Loss: 4.0756869 Test Loss: 3.7698112
+Epoch: 3 cost time: 15.664112329483032
+Epoch: 3, Steps: 14 | Train Loss: 3.3530715 Vali Loss: 3.7692776 Test Loss: 3.5740101
+Epoch: 4 cost time: 15.68615984916687
+Epoch: 4, Steps: 14 | Train Loss: 3.2840563 Vali Loss: 3.4728189 Test Loss: 3.3163922
+Epoch: 5 cost time: 15.710272073745728
+Epoch: 5, Steps: 14 | Train Loss: 3.3008529 Vali Loss: 3.8502011 Test Loss: 3.6307385
+Epoch: 6 cost time: 15.49988579750061
+Epoch: 6, Steps: 14 | Train Loss: 3.1952516 Vali Loss: 3.6785059 Test Loss: 3.3939483
+Epoch: 7 cost time: 15.4444899559021
+Epoch: 7, Steps: 14 | Train Loss: 3.2283530 Vali Loss: 3.6130180 Test Loss: 3.3660240
+Epoch: 8 cost time: 15.489121198654175
+Epoch: 8, Steps: 14 | Train Loss: 3.2224471 Vali Loss: 3.4903657 Test Loss: 3.3376970
+Epoch: 9 cost time: 17.002708673477173
+Epoch: 9, Steps: 14 | Train Loss: 3.2404353 Vali Loss: 3.6660538 Test Loss: 3.5294299
+EarlyStopping counter: 5 out of 5
+Early stopping
+>>>>>>>testing : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test200
+test shape:(200, 24, 2)(200, 25, 4)
+mse:0.0013862567720934749, mae:0.02017870917916298, dis:3.275104522705078, rmse0.03723246976733208, mape0.0004423926293384284, mspe7.411907745336066e-07
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+Epoch: 1 cost time: 16.356019258499146
+Epoch: 1, Steps: 14 | Train Loss: 4.7939066 Vali Loss: 4.2512026 Test Loss: 4.2141438
+Epoch: 2 cost time: 16.451645374298096
+Epoch: 2, Steps: 14 | Train Loss: 4.2195801 Vali Loss: 4.4775705 Test Loss: 4.0964885
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+Epoch: 1 cost time: 17.8509681224823
+Epoch: 1, Steps: 14 | Train Loss: 4.9282180 Vali Loss: 4.1572642 Test Loss: 4.6613188
+Epoch: 2 cost time: 17.810661792755127
+Epoch: 2, Steps: 14 | Train Loss: 4.1288864 Vali Loss: 4.1049662 Test Loss: 4.3461409
+Epoch: 3 cost time: 17.765596866607666
+Epoch: 3, Steps: 14 | Train Loss: 3.7423696 Vali Loss: 4.2170992 Test Loss: 4.3430614
+Epoch: 4 cost time: 17.813843727111816
+Epoch: 4, Steps: 14 | Train Loss: 3.6925236 Vali Loss: 3.7549434 Test Loss: 4.4100838
+Epoch: 5 cost time: 17.780824184417725
+Epoch: 5, Steps: 14 | Train Loss: 3.6337635 Vali Loss: 3.9601789 Test Loss: 4.3106356
+Epoch: 6 cost time: 17.748053789138794
+Epoch: 6, Steps: 14 | Train Loss: 3.6069822 Vali Loss: 3.6561680 Test Loss: 3.9738953
+Epoch: 7 cost time: 17.844107389450073
+Epoch: 7, Steps: 14 | Train Loss: 3.5912550 Vali Loss: 3.3893661 Test Loss: 3.9790792
+Epoch: 8 cost time: 17.869300603866577
+Epoch: 8, Steps: 14 | Train Loss: 3.4915578 Vali Loss: 3.6600881 Test Loss: 3.9535077
+Epoch: 9 cost time: 17.847273588180542
+Epoch: 9, Steps: 14 | Train Loss: 3.5129932 Vali Loss: 3.7598376 Test Loss: 3.9473219
+Epoch: 10 cost time: 17.91650652885437
+Epoch: 10, Steps: 14 | Train Loss: 3.4402740 Vali Loss: 3.8563905 Test Loss: 3.9529974
+Epoch: 11 cost time: 17.827154874801636
+Epoch: 11, Steps: 14 | Train Loss: 3.4869034 Vali Loss: 3.4316390 Test Loss: 3.8046448
+Epoch: 12 cost time: 17.66954493522644
+Epoch: 12, Steps: 14 | Train Loss: 3.4970660 Vali Loss: 3.6442249 Test Loss: 4.1415663
+EarlyStopping counter: 5 out of 5
+Early stopping
+>>>>>>>testing : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test200
+test shape:(200, 24, 2)(200, 25, 4)
+mse:0.0017509699100628495, mae:0.023869872093200684, dis:3.8948583602905273, rmse0.04184459149837494, mape0.0005389720317907631, mspe1.0803237273648847e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+Epoch: 1 cost time: 16.41212248802185
+Epoch: 1, Steps: 14 | Train Loss: 7.2749654 Vali Loss: 5.9651222 Test Loss: 5.7609162
+Epoch: 2 cost time: 14.992407321929932
+Epoch: 2, Steps: 14 | Train Loss: 4.6874006 Vali Loss: 4.6286106 Test Loss: 4.5752244
+Epoch: 3 cost time: 15.177854061126709
+Epoch: 3, Steps: 14 | Train Loss: 4.3613596 Vali Loss: 6.8073397 Test Loss: 6.7275734
+Epoch: 4 cost time: 15.300787210464478
+Epoch: 4, Steps: 14 | Train Loss: 4.1416603 Vali Loss: 4.8210392 Test Loss: 4.5838289
+Epoch: 5 cost time: 15.161598443984985
+Epoch: 5, Steps: 14 | Train Loss: 3.9364849 Vali Loss: 4.9777999 Test Loss: 4.6167321
+Epoch: 6 cost time: 15.000990390777588
+Epoch: 6, Steps: 14 | Train Loss: 3.9476830 Vali Loss: 5.0416117 Test Loss: 4.7771912
+Epoch: 7 cost time: 15.071270227432251
+Epoch: 7, Steps: 14 | Train Loss: 3.9297070 Vali Loss: 4.8773355 Test Loss: 4.7207332
+EarlyStopping counter: 5 out of 5
+Early stopping
+>>>>>>>testing : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test200
+test shape:(200, 24, 2)(200, 25, 4)
+mse:0.0022696254309266806, mae:0.027534138411283493, dis:4.520410060882568, rmse0.04764058440923691, mape0.00063783471705392, mspe1.5540240383415949e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
+model:MSTFormer_data:./data/AIS2021_72_48_24_3s_test/_probUse:True_embed:timeF_encoderLayers:2_decoderLayers:1_probSparseFactor:3_dropout:0.05_itr:1_trainEpochs:20_batchSize:50_patience:5_learningRate:5e-06
+itr:0,total:1
+>>>>>>>start training : model1_MSTFormer_ship_ftM_sl72_ll48_pl24_puTrue_dm512_nh8_el2_dl1_df2048_atprob_fc3_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train700
+val100
+test200
